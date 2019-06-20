@@ -13,7 +13,7 @@ for i in range(m):
     d = defaultdict(list)
 
 for i in range(n):
-    d[input1[i]].append(i+1)
+    d[input1[i]].append(i + 1)
 
 for i in input2:
     if i in d:
