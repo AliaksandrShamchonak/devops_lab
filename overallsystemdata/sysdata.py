@@ -31,12 +31,12 @@ def printres():
             "Network information": netw
         }, indent=4)
     else:
-        sprintres = "SNAPSHOT " + str(count) + ": " + \ 
-                timenow + ":" + \ 
-                " CPU load %: " + cpu + \ 
-                " Memory usage MB: " + memu + \ 
-                " Virtual memory usage MB: " + memv + \ 
-                " IO information " + ioc + \ 
+        sprintres = "SNAPSHOT " + str(count) + ": " +\
+                timenow + ":" +\
+                " CPU load %: " + cpu +\
+                " Memory usage MB: " + memu +\
+                " Virtual memory usage MB: " + memv +\
+                " IO information " + ioc +\
                 " Network information " + netw + "\n"
     print(sprintres)
     return sprintres
