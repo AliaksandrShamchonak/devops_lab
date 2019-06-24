@@ -33,9 +33,11 @@ username = "AliaksandrShamchonak"
 token = "7e2aa95a534e2fc5c506228acd14862d71fea02b"
 url = ''
 
+
 def urlin(urlowner, urlrepo, urloptions):
     global url
     url = "https://api.github.com/repos/%s/%s/%s" % (urlowner, urlrepo, urloptions)
+
 
 if args.commit or args.all:
     urloptions = 'commits'
