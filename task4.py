@@ -2,7 +2,7 @@ from collections import defaultdict
 
 n, m = map(int, input().split(' '))
 
-input1 = list()
+input1 = list[]
 for i in range(n):
     input1.append(input())
 
