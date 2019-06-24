@@ -2,11 +2,11 @@ from collections import defaultdict
 
 n, m = map(int, input().split(' '))
 
-input1 = list[]
+input1 = []
 for i in range(n):
     input1.append(input())
 
-    input2 = list[]
+    input2 = []
 for i in range(m):
     input2.append(input())
 
