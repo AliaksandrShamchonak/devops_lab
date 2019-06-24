@@ -35,15 +35,14 @@ url = ''
 
 def urlin(urlowner, urlrepo, urloptions):
     global url
-    url = "https://api.github.com/repos/%s/%s/%s" %(urlowner, urlrepo, urloptions)
-
+    url = "https://api.github.com/repos/%s/%s/%s" % (urlowner, urlrepo, urloptions)
 
 if args.commit or args.all:
     urloptions = 'commits'
     urlin(urlowner, urlrepo, urloptions)
     r = requests.get(url, auth=(username, token))
     lenstr = len(r.json())
-    print("\nYou have %d commits:" %lenstr)
+    print("\nYou have %d commits:" % lenstr)
     for i in range(lenstr):
         idate = r.json()[i]['commit']['author']['date']
         imessage = r.json()[i]['commit']['message']
