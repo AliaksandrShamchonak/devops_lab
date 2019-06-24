@@ -6,7 +6,7 @@ input1 = list[]
 for i in range(n):
     input1.append(input())
 
-    input2 = list()
+    input2 = list[]
 for i in range(m):
     input2.append(input())
 
