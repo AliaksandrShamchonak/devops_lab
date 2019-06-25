@@ -30,7 +30,7 @@ jsondata = {
     "PYTHONPATH": spath,
     "Installed packages": sinst,
     "Site-packages location": spack
-    }
+}
 with open('output.json', 'w') as f:
     f.write(json.dumps(jsondata, indent=4))
 
@@ -42,6 +42,6 @@ yamldata = {
     "PYTHONPATH": spath,
     "Installed packages": sinst,
     "Site-packages location": spack
-    }
+}
 with open('output.yml', 'w') as f:
     yaml.dump(yamldata, f)
