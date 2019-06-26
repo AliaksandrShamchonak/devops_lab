@@ -1,7 +1,7 @@
 import psutil
 import datetime
 import time
-import ConfigFile
+from overallsystemdata import ConfigFile
 import json
 
 sprintres = str

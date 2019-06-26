@@ -28,11 +28,7 @@ Configure format `Output` file `json` or `txt`.
 
 ## Running
 
-`../site-packages]$ python overallsystemdata`
-
-or
-
-`$ python  ../site-packages/overallsystemdata`
+`$ python -m overallsystemdata`
 
 ## Output examples
 

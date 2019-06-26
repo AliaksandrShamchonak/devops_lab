@@ -12,5 +12,10 @@ setup(
     install_requires=[
         'psutil'
     ],
+    entry_points={
+        'console_scripts': [
+            'overallsystemdata = overallsystemdata:main',
+        ],
+    },
     include_package_data=True
 )

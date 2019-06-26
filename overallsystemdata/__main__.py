@@ -1,3 +1,3 @@
-from sysdata import printres
+from overallsystemdata.sysdata import printres
 
 printres()
