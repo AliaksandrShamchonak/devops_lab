@@ -5,9 +5,12 @@ Script Pull Request statistics (pr-stats) is getting statistics from GitHub:
  
 ## Running
  
-`python prstats [options]` 
+`python prstats.py [options]` 
 
 ## Options
+
+usage: prstats.py [-h] [-v] [-o OWNER] [-r REPO] [-a] [-cm] [-br] [-pu] [-pc]
+                  [-wd] -un UNAME -ut UTOKEN
 
 Optional arguments:
   -h, --help        show this help message and exit
@@ -20,5 +23,5 @@ Optional arguments:
   -pu, --pull       Show number of pull requests and create date
   -pc, --pullclose  Show pull requests is closed
   -wd, --weekday    Day of week pull request created
-  --uname           User name for authorization github
-  --utoken          User token for authorization github
+  -un, --uname      User name for authorization github
+  -ut, --utoken     User token for authorization github
