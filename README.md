@@ -20,3 +20,5 @@ Optional arguments:
   -pu, --pull       Show number of pull requests and create date
   -pc, --pullclose  Show pull requests is closed
   -wd, --weekday    Day of week pull request created
+  --uname           User name for authorization github
+  --utoken          User token for authorization github
