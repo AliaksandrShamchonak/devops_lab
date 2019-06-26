@@ -30,8 +30,8 @@ args = parser.parse_args()
 urlowner = args.owner
 urlrepo = args.repo
 urloptions = args.pull
-username = arg.uname
-token = arg.utoken
+username = args.uname
+token = args.utoken
 url = ''
 
 
