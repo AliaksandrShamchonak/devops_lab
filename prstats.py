@@ -21,16 +21,17 @@ parser.add_argument("-pu", "--pull", action='store_true', default='pulls',
                     help="Show number of pull requests and create date")
 parser.add_argument("-pc", "--pullclose", action='store_true',
                     help="Show pull requests is closed")
-parser.add_argument("-wd", "--weekday", action='store_true',
-                    help="Day of week pull request created")
+parser.add_argument("--uname", action='store_true',
+                    help="User name for authorization github")
+parser.add_argument("--utoken", action='store_true',
+                    help="User token for authorization github")
 
 args = parser.parse_args()
 urlowner = args.owner
 urlrepo = args.repo
 urloptions = args.pull
-
-username = ""
-token = ""
+username = arg.uname
+token = arg.utoken
 url = ''
 
 
