@@ -37,7 +37,7 @@ url = ''
 
 def urlin(urlowner, urlrepo, urloptions):
     global url
-    url = "https://api.github.com/repos/%s/%s/%s" %(urlowner, urlrepo, urloptions)
+    url = "https://api.github.com/repos/%s/%s/%s" % (urlowner, urlrepo, urloptions)
 
 
 if args.commit or args.all:
