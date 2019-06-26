@@ -29,8 +29,8 @@ urlowner = args.owner
 urlrepo = args.repo
 urloptions = args.pull
 
-username = "AliaksandrShamchonak"
-token = "7e2aa95a534e2fc5c506228acd14862d71fea02b"
+username = ""
+token = ""
 url = ''
 
 
